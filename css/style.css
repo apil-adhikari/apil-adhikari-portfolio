@@ -1,0 +1,47 @@
+html {
+  font-size: 62.5%;
+}
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #333;
+  background-color: #f8ede3;
+  font-family: "Roboto";
+  position: relative;
+  overflow: hidden;
+}
+h1 {
+  font-size: 3rem;
+  font-family: "Lucida Console", "Roboto", sans-serif;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.parent-div {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link-container {
+  display: flex;
+  /* flex-direction: column; */
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  gap: 1rem;
+}
+
+.social-icons-link {
+  display: inline-block;
+}
+
+.social-icon {
+  height: 3rem;
+}
